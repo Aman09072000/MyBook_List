@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -36,6 +37,9 @@ public class BookAdapter extends ArrayAdapter {
 
         TextView authorname = (TextView)listItemView.findViewById(R.id.author);
         authorname.setText(current.getMauthorName());
+
+//        ImageView image = (ImageView) listItemView.findViewById(R.id.image1);
+//        image.setImageResource(Integer.parseInt(current.getmImage()));
 
         return listItemView;
 

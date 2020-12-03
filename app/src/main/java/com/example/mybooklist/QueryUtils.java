@@ -16,7 +16,7 @@ public class QueryUtils {
     /** Sample JSON response for a USGS query */
     private static final String SAMPLE_JSON_RESPONSE = "{\n" +
             "  \"kind\": \"books#volumes\",\n" +
-            "  \"totalItems\": 1973,\n" +
+            "  \"totalItems\": 1991,\n" +
             "  \"items\": [\n" +
             "    {\n" +
             "      \"kind\": \"books#volume\",\n" +
@@ -268,8 +268,107 @@ public class QueryUtils {
             "    },\n" +
             "    {\n" +
             "      \"kind\": \"books#volume\",\n" +
+            "      \"id\": \"_1otcB06lWYC\",\n" +
+            "      \"etag\": \"xnjaDNR/OP8\",\n" +
+            "      \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/_1otcB06lWYC\",\n" +
+            "      \"volumeInfo\": {\n" +
+            "        \"title\": \"Beginning Android 4 Application Development\",\n" +
+            "        \"authors\": [\n" +
+            "          \"Wei-Meng Lee\"\n" +
+            "        ],\n" +
+            "        \"publisher\": \"John Wiley & Sons\",\n" +
+            "        \"publishedDate\": \"2012-02-03\",\n" +
+            "        \"description\": \"Understand Android OS for both smartphone and tablet programming This fast-paced introduction to the newest release of Android OS gives aspiring mobile app developers what they need to know to program for today's hottest Android smartphones and tablets. Android 4 OS is, for the first time, a single solution for both smartphones and tablets, so if you master the information in this helpful guide, you'll be well on your way to successful development for both devices. From using activities and intents and creating rich user interfaces to working with SMS, messaging APIs, and the Android SDK, what you need is here. Provides clear instructions backed by real-world programming examples Begins with the basics and covers everything Android 4 developers need to know for both smartphones and tablets Explains how to customize activities and intents, create rich user interfaces, and manage data Helps you work with SMS and messaging APIs, the Android SDK, and using location-based services Details how to package and publish your applications to the Android Market Beginning Android 4 Application Development pares down the most essential steps you need to know so you can start creating Android applications today.\",\n" +
+            "        \"industryIdentifiers\": [\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_13\",\n" +
+            "            \"identifier\": \"9781118240670\"\n" +
+            "          },\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_10\",\n" +
+            "            \"identifier\": \"1118240677\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"readingModes\": {\n" +
+            "          \"text\": true,\n" +
+            "          \"image\": true\n" +
+            "        },\n" +
+            "        \"pageCount\": 560,\n" +
+            "        \"printType\": \"BOOK\",\n" +
+            "        \"categories\": [\n" +
+            "          \"Computers\"\n" +
+            "        ],\n" +
+            "        \"averageRating\": 3.5,\n" +
+            "        \"ratingsCount\": 7,\n" +
+            "        \"maturityRating\": \"NOT_MATURE\",\n" +
+            "        \"allowAnonLogging\": true,\n" +
+            "        \"contentVersion\": \"1.9.8.0.preview.3\",\n" +
+            "        \"panelizationSummary\": {\n" +
+            "          \"containsEpubBubbles\": false,\n" +
+            "          \"containsImageBubbles\": false\n" +
+            "        },\n" +
+            "        \"imageLinks\": {\n" +
+            "          \"smallThumbnail\": \"http://books.google.com/books/content?id=_1otcB06lWYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n" +
+            "          \"thumbnail\": \"http://books.google.com/books/content?id=_1otcB06lWYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"language\": \"en\",\n" +
+            "        \"previewLink\": \"http://books.google.co.in/books?id=_1otcB06lWYC&printsec=frontcover&dq=android&hl=&cd=4&source=gbs_api\",\n" +
+            "        \"infoLink\": \"https://play.google.com/store/books/details?id=_1otcB06lWYC&source=gbs_api\",\n" +
+            "        \"canonicalVolumeLink\": \"https://play.google.com/store/books/details?id=_1otcB06lWYC\"\n" +
+            "      },\n" +
+            "      \"saleInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"saleability\": \"FOR_SALE\",\n" +
+            "        \"isEbook\": true,\n" +
+            "        \"listPrice\": {\n" +
+            "          \"amount\": 742.22,\n" +
+            "          \"currencyCode\": \"INR\"\n" +
+            "        },\n" +
+            "        \"retailPrice\": {\n" +
+            "          \"amount\": 371.11,\n" +
+            "          \"currencyCode\": \"INR\"\n" +
+            "        },\n" +
+            "        \"buyLink\": \"https://play.google.com/store/books/details?id=_1otcB06lWYC&rdid=book-_1otcB06lWYC&rdot=1&source=gbs_api\",\n" +
+            "        \"offers\": [\n" +
+            "          {\n" +
+            "            \"finskyOfferType\": 1,\n" +
+            "            \"listPrice\": {\n" +
+            "              \"amountInMicros\": 742220000,\n" +
+            "              \"currencyCode\": \"INR\"\n" +
+            "            },\n" +
+            "            \"retailPrice\": {\n" +
+            "              \"amountInMicros\": 371110000,\n" +
+            "              \"currencyCode\": \"INR\"\n" +
+            "            }\n" +
+            "          }\n" +
+            "        ]\n" +
+            "      },\n" +
+            "      \"accessInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"viewability\": \"PARTIAL\",\n" +
+            "        \"embeddable\": true,\n" +
+            "        \"publicDomain\": false,\n" +
+            "        \"textToSpeechPermission\": \"ALLOWED\",\n" +
+            "        \"epub\": {\n" +
+            "          \"isAvailable\": true,\n" +
+            "          \"acsTokenLink\": \"http://books.google.co.in/books/download/Beginning_Android_4_Application_Developm-sample-epub.acsm?id=_1otcB06lWYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"pdf\": {\n" +
+            "          \"isAvailable\": true,\n" +
+            "          \"acsTokenLink\": \"http://books.google.co.in/books/download/Beginning_Android_4_Application_Developm-sample-pdf.acsm?id=_1otcB06lWYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"webReaderLink\": \"http://play.google.com/books/reader?id=_1otcB06lWYC&hl=&printsec=frontcover&source=gbs_api\",\n" +
+            "        \"accessViewStatus\": \"SAMPLE\",\n" +
+            "        \"quoteSharingAllowed\": false\n" +
+            "      },\n" +
+            "      \"searchInfo\": {\n" +
+            "        \"textSnippet\": \"Beginning Android 4 Application Development: Explains how to adapt to display orientation, understand the components of a screen, and handle user interface notifications Explains the various elements that go into designing your user ...\"\n" +
+            "      }\n" +
+            "    },\n" +
+            "    {\n" +
+            "      \"kind\": \"books#volume\",\n" +
             "      \"id\": \"bYElAgAAQBAJ\",\n" +
-            "      \"etag\": \"xtyt5Ymg8FI\",\n" +
+            "      \"etag\": \"hZM+8OWsuRE\",\n" +
             "      \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/bYElAgAAQBAJ\",\n" +
             "      \"volumeInfo\": {\n" +
             "        \"title\": \"Introduction to Android Application Development\",\n" +
@@ -313,7 +412,7 @@ public class QueryUtils {
             "          \"thumbnail\": \"http://books.google.com/books/content?id=bYElAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n" +
             "        },\n" +
             "        \"language\": \"en\",\n" +
-            "        \"previewLink\": \"http://books.google.co.in/books?id=bYElAgAAQBAJ&printsec=frontcover&dq=android&hl=&cd=4&source=gbs_api\",\n" +
+            "        \"previewLink\": \"http://books.google.co.in/books?id=bYElAgAAQBAJ&printsec=frontcover&dq=android&hl=&cd=5&source=gbs_api\",\n" +
             "        \"infoLink\": \"https://play.google.com/store/books/details?id=bYElAgAAQBAJ&source=gbs_api\",\n" +
             "        \"canonicalVolumeLink\": \"https://play.google.com/store/books/details?id=bYElAgAAQBAJ\"\n" +
             "      },\n" +
@@ -367,7 +466,7 @@ public class QueryUtils {
             "    {\n" +
             "      \"kind\": \"books#volume\",\n" +
             "      \"id\": \"w8TsMgEACAAJ\",\n" +
-            "      \"etag\": \"W/xk0J1WGIM\",\n" +
+            "      \"etag\": \"lC5nElLfWoc\",\n" +
             "      \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/w8TsMgEACAAJ\",\n" +
             "      \"volumeInfo\": {\n" +
             "        \"title\": \"Android (Operating System) - Unabridged Guide\",\n" +
@@ -404,7 +503,7 @@ public class QueryUtils {
             "          \"thumbnail\": \"http://books.google.com/books/content?id=w8TsMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n" +
             "        },\n" +
             "        \"language\": \"en\",\n" +
-            "        \"previewLink\": \"http://books.google.co.in/books?id=w8TsMgEACAAJ&dq=android&hl=&cd=5&source=gbs_api\",\n" +
+            "        \"previewLink\": \"http://books.google.co.in/books?id=w8TsMgEACAAJ&dq=android&hl=&cd=6&source=gbs_api\",\n" +
             "        \"infoLink\": \"http://books.google.co.in/books?id=w8TsMgEACAAJ&dq=android&hl=&source=gbs_api\",\n" +
             "        \"canonicalVolumeLink\": \"https://books.google.com/books/about/Android_Operating_System_Unabridged_Guid.html?hl=&id=w8TsMgEACAAJ\"\n" +
             "      },\n" +
@@ -432,6 +531,298 @@ public class QueryUtils {
             "      \"searchInfo\": {\n" +
             "        \"textSnippet\": \"Get the information you need--fast! This comprehensive guide offers a thorough view of key knowledge and detailed insight. It&#39;s all you need. Here&#39;s part of the content - you would like to know it all? Delve into this book today!\"\n" +
             "      }\n" +
+            "    },\n" +
+            "    {\n" +
+            "      \"kind\": \"books#volume\",\n" +
+            "      \"id\": \"5BGBswAQSiEC\",\n" +
+            "      \"etag\": \"a4zQnZ2fRU0\",\n" +
+            "      \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/5BGBswAQSiEC\",\n" +
+            "      \"volumeInfo\": {\n" +
+            "        \"title\": \"Programming Android\",\n" +
+            "        \"authors\": [\n" +
+            "          \"Zigurd Mednieks\",\n" +
+            "          \"Laird Dornin\",\n" +
+            "          \"Blake Meike\",\n" +
+            "          \"Masumi Nakamura\"\n" +
+            "        ],\n" +
+            "        \"publisher\": \"\\\"O'Reilly Media, Inc.\\\"\",\n" +
+            "        \"publishedDate\": \"2011-07-22\",\n" +
+            "        \"description\": \"Presents instructions for creating Android applications for mobile devices using Java.\",\n" +
+            "        \"industryIdentifiers\": [\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_13\",\n" +
+            "            \"identifier\": \"9781449389697\"\n" +
+            "          },\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_10\",\n" +
+            "            \"identifier\": \"1449389694\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"readingModes\": {\n" +
+            "          \"text\": false,\n" +
+            "          \"image\": true\n" +
+            "        },\n" +
+            "        \"pageCount\": 482,\n" +
+            "        \"printType\": \"BOOK\",\n" +
+            "        \"categories\": [\n" +
+            "          \"Computers\"\n" +
+            "        ],\n" +
+            "        \"averageRating\": 3.5,\n" +
+            "        \"ratingsCount\": 2,\n" +
+            "        \"maturityRating\": \"NOT_MATURE\",\n" +
+            "        \"allowAnonLogging\": true,\n" +
+            "        \"contentVersion\": \"0.3.0.0.preview.1\",\n" +
+            "        \"imageLinks\": {\n" +
+            "          \"smallThumbnail\": \"http://books.google.com/books/content?id=5BGBswAQSiEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n" +
+            "          \"thumbnail\": \"http://books.google.com/books/content?id=5BGBswAQSiEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"language\": \"en\",\n" +
+            "        \"previewLink\": \"http://books.google.co.in/books?id=5BGBswAQSiEC&pg=PA431&dq=android&hl=&cd=7&source=gbs_api\",\n" +
+            "        \"infoLink\": \"http://books.google.co.in/books?id=5BGBswAQSiEC&dq=android&hl=&source=gbs_api\",\n" +
+            "        \"canonicalVolumeLink\": \"https://books.google.com/books/about/Programming_Android.html?hl=&id=5BGBswAQSiEC\"\n" +
+            "      },\n" +
+            "      \"saleInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"saleability\": \"NOT_FOR_SALE\",\n" +
+            "        \"isEbook\": false\n" +
+            "      },\n" +
+            "      \"accessInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"viewability\": \"PARTIAL\",\n" +
+            "        \"embeddable\": true,\n" +
+            "        \"publicDomain\": false,\n" +
+            "        \"textToSpeechPermission\": \"ALLOWED\",\n" +
+            "        \"epub\": {\n" +
+            "          \"isAvailable\": false\n" +
+            "        },\n" +
+            "        \"pdf\": {\n" +
+            "          \"isAvailable\": true\n" +
+            "        },\n" +
+            "        \"webReaderLink\": \"http://play.google.com/books/reader?id=5BGBswAQSiEC&hl=&printsec=frontcover&source=gbs_api\",\n" +
+            "        \"accessViewStatus\": \"SAMPLE\",\n" +
+            "        \"quoteSharingAllowed\": false\n" +
+            "      },\n" +
+            "      \"searchInfo\": {\n" +
+            "        \"textSnippet\": \"... that enables the necessary interactions for making and managing connections \\u003cbr\\u003e\\nand for using applications that communicate over Bluetooth. \\u003cb\\u003eAndroid\\u003c/b\\u003e uses the \\u003cbr\\u003e\\nBluez Bluetooth stack, which is the most commonly used Bluetooth stack for \\u003cbr\\u003e\\nLinux.\"\n" +
+            "      }\n" +
+            "    },\n" +
+            "    {\n" +
+            "      \"kind\": \"books#volume\",\n" +
+            "      \"id\": \"m16ccm8jAFUC\",\n" +
+            "      \"etag\": \"5qZxr7Y3DGg\",\n" +
+            "      \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/m16ccm8jAFUC\",\n" +
+            "      \"volumeInfo\": {\n" +
+            "        \"title\": \"The Complete Android Guide\",\n" +
+            "        \"authors\": [\n" +
+            "          \"Kevin Purdy\"\n" +
+            "        ],\n" +
+            "        \"publisher\": \"3ones Inc\",\n" +
+            "        \"publishedDate\": \"2011-04-01\",\n" +
+            "        \"industryIdentifiers\": [\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_13\",\n" +
+            "            \"identifier\": \"9780982592625\"\n" +
+            "          },\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_10\",\n" +
+            "            \"identifier\": \"0982592620\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"readingModes\": {\n" +
+            "          \"text\": true,\n" +
+            "          \"image\": false\n" +
+            "        },\n" +
+            "        \"printType\": \"BOOK\",\n" +
+            "        \"categories\": [\n" +
+            "          \"Computers\"\n" +
+            "        ],\n" +
+            "        \"maturityRating\": \"NOT_MATURE\",\n" +
+            "        \"allowAnonLogging\": false,\n" +
+            "        \"contentVersion\": \"0.0.2.0.preview.2\",\n" +
+            "        \"imageLinks\": {\n" +
+            "          \"smallThumbnail\": \"http://books.google.com/books/content?id=m16ccm8jAFUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n" +
+            "          \"thumbnail\": \"http://books.google.com/books/content?id=m16ccm8jAFUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"language\": \"en\",\n" +
+            "        \"previewLink\": \"http://books.google.co.in/books?id=m16ccm8jAFUC&pg=PA93&dq=android&hl=&cd=8&source=gbs_api\",\n" +
+            "        \"infoLink\": \"http://books.google.co.in/books?id=m16ccm8jAFUC&dq=android&hl=&source=gbs_api\",\n" +
+            "        \"canonicalVolumeLink\": \"https://books.google.com/books/about/The_Complete_Android_Guide.html?hl=&id=m16ccm8jAFUC\"\n" +
+            "      },\n" +
+            "      \"saleInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"saleability\": \"NOT_FOR_SALE\",\n" +
+            "        \"isEbook\": false\n" +
+            "      },\n" +
+            "      \"accessInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"viewability\": \"PARTIAL\",\n" +
+            "        \"embeddable\": true,\n" +
+            "        \"publicDomain\": false,\n" +
+            "        \"textToSpeechPermission\": \"ALLOWED\",\n" +
+            "        \"epub\": {\n" +
+            "          \"isAvailable\": true\n" +
+            "        },\n" +
+            "        \"pdf\": {\n" +
+            "          \"isAvailable\": false\n" +
+            "        },\n" +
+            "        \"webReaderLink\": \"http://play.google.com/books/reader?id=m16ccm8jAFUC&hl=&printsec=frontcover&source=gbs_api\",\n" +
+            "        \"accessViewStatus\": \"SAMPLE\",\n" +
+            "        \"quoteSharingAllowed\": false\n" +
+            "      },\n" +
+            "      \"searchInfo\": {\n" +
+            "        \"textSnippet\": \"Your \\u003cb\\u003eAndroid\\u003c/b\\u003e phone can do all kinds of neat things with its almost ubiquitous \\u003cbr\\u003e\\naccess to the web, and browsing the web is one of its core abilities. Here&#39;s how to \\u003cbr\\u003e\\nmake the most of your browser—the app labeled, helpfully, &quot;Browser.&quot;&nbsp;...\"\n" +
+            "      }\n" +
+            "    },\n" +
+            "    {\n" +
+            "      \"kind\": \"books#volume\",\n" +
+            "      \"id\": \"4RCEGbMrZ7oC\",\n" +
+            "      \"etag\": \"tfOwxjIQUfY\",\n" +
+            "      \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/4RCEGbMrZ7oC\",\n" +
+            "      \"volumeInfo\": {\n" +
+            "        \"title\": \"Building Android Apps with HTML, CSS, and JavaScript\",\n" +
+            "        \"authors\": [\n" +
+            "          \"Jonathan Stark\",\n" +
+            "          \"Paco Nathan\",\n" +
+            "          \"John Papaconstantinou\",\n" +
+            "          \"Paco Lagerstrom\",\n" +
+            "          \"Paco Hope\"\n" +
+            "        ],\n" +
+            "        \"publisher\": \"\\\"O'Reilly Media, Inc.\\\"\",\n" +
+            "        \"publishedDate\": \"2010-09-27\",\n" +
+            "        \"description\": \"If you know HTML, CSS, and JavaScript, you already have the tools you need to develop Android applications. This hands-on book shows you how to use these open source web standards to design and build apps that can be adapted for any Android device -- without having to use Java. You'll learn how to create an Android-friendly web app on the platform of your choice, and then convert it to a native Android app with the free PhoneGap framework. Discover why device-agnostic mobile apps are the wave of the future, and start building apps that offer greater flexibility and a broader reach. Learn the basics for making a web page look great on the Android web browser Convert a website into a web application, complete with progress indicators and more Add animation with jQTouch to make your web app look and feel like a native Android app Take advantage of client-side data storage with apps that run even when the Android device is offline Use PhoneGap to hook into advanced Android features -- including the accelerometer, geolocation, and alerts Test and debug your app on the Web under load with real users, and then submit the finished product to the Android Market This book received valuable community input through O'Reilly's Open Feedback Publishing System (OFPS). Learn more at http://labs.oreilly.com/ofps.html.\",\n" +
+            "        \"industryIdentifiers\": [\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_10\",\n" +
+            "            \"identifier\": \"1449396933\"\n" +
+            "          },\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_13\",\n" +
+            "            \"identifier\": \"9781449396930\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"readingModes\": {\n" +
+            "          \"text\": true,\n" +
+            "          \"image\": true\n" +
+            "        },\n" +
+            "        \"pageCount\": 184,\n" +
+            "        \"printType\": \"BOOK\",\n" +
+            "        \"categories\": [\n" +
+            "          \"Computers\"\n" +
+            "        ],\n" +
+            "        \"averageRating\": 2,\n" +
+            "        \"ratingsCount\": 5,\n" +
+            "        \"maturityRating\": \"NOT_MATURE\",\n" +
+            "        \"allowAnonLogging\": true,\n" +
+            "        \"contentVersion\": \"0.8.7.0.preview.3\",\n" +
+            "        \"panelizationSummary\": {\n" +
+            "          \"containsEpubBubbles\": false,\n" +
+            "          \"containsImageBubbles\": false\n" +
+            "        },\n" +
+            "        \"imageLinks\": {\n" +
+            "          \"smallThumbnail\": \"http://books.google.com/books/content?id=4RCEGbMrZ7oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n" +
+            "          \"thumbnail\": \"http://books.google.com/books/content?id=4RCEGbMrZ7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"language\": \"en\",\n" +
+            "        \"previewLink\": \"http://books.google.co.in/books?id=4RCEGbMrZ7oC&pg=PA28&dq=android&hl=&cd=9&source=gbs_api\",\n" +
+            "        \"infoLink\": \"http://books.google.co.in/books?id=4RCEGbMrZ7oC&dq=android&hl=&source=gbs_api\",\n" +
+            "        \"canonicalVolumeLink\": \"https://books.google.com/books/about/Building_Android_Apps_with_HTML_CSS_and.html?hl=&id=4RCEGbMrZ7oC\"\n" +
+            "      },\n" +
+            "      \"saleInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"saleability\": \"NOT_FOR_SALE\",\n" +
+            "        \"isEbook\": false\n" +
+            "      },\n" +
+            "      \"accessInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"viewability\": \"PARTIAL\",\n" +
+            "        \"embeddable\": true,\n" +
+            "        \"publicDomain\": false,\n" +
+            "        \"textToSpeechPermission\": \"ALLOWED\",\n" +
+            "        \"epub\": {\n" +
+            "          \"isAvailable\": true\n" +
+            "        },\n" +
+            "        \"pdf\": {\n" +
+            "          \"isAvailable\": true\n" +
+            "        },\n" +
+            "        \"webReaderLink\": \"http://play.google.com/books/reader?id=4RCEGbMrZ7oC&hl=&printsec=frontcover&source=gbs_api\",\n" +
+            "        \"accessViewStatus\": \"SAMPLE\",\n" +
+            "        \"quoteSharingAllowed\": false\n" +
+            "      },\n" +
+            "      \"searchInfo\": {\n" +
+            "        \"textSnippet\": \"Add these lines to the head section of your HTML document: &lt;script type=&quot;text/\\u003cbr\\u003e\\njavascript&quot; src=&quot;jquery.js&quot;&gt;&lt;/script&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;\\u003cb\\u003eandroid\\u003c/b\\u003e.js&quot;&gt;\\u003cbr\\u003e\\n&lt;/script&gt; jQuery downloads, documentation, and tutorials are available at http:&nbsp;...\"\n" +
+            "      }\n" +
+            "    },\n" +
+            "    {\n" +
+            "      \"kind\": \"books#volume\",\n" +
+            "      \"id\": \"1C3yNgqZnUkC\",\n" +
+            "      \"etag\": \"tQjbWl3ZYS8\",\n" +
+            "      \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/1C3yNgqZnUkC\",\n" +
+            "      \"volumeInfo\": {\n" +
+            "        \"title\": \"Android Application Development For Dummies\",\n" +
+            "        \"authors\": [\n" +
+            "          \"Donn Felker\"\n" +
+            "        ],\n" +
+            "        \"publisher\": \"John Wiley & Sons\",\n" +
+            "        \"publishedDate\": \"2010-11-17\",\n" +
+            "        \"industryIdentifiers\": [\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_10\",\n" +
+            "            \"identifier\": \"1118005155\"\n" +
+            "          },\n" +
+            "          {\n" +
+            "            \"type\": \"ISBN_13\",\n" +
+            "            \"identifier\": \"9781118005156\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"readingModes\": {\n" +
+            "          \"text\": true,\n" +
+            "          \"image\": true\n" +
+            "        },\n" +
+            "        \"pageCount\": 360,\n" +
+            "        \"printType\": \"BOOK\",\n" +
+            "        \"categories\": [\n" +
+            "          \"Computers\"\n" +
+            "        ],\n" +
+            "        \"averageRating\": 3,\n" +
+            "        \"ratingsCount\": 39,\n" +
+            "        \"maturityRating\": \"NOT_MATURE\",\n" +
+            "        \"allowAnonLogging\": true,\n" +
+            "        \"contentVersion\": \"0.1.3.0.preview.3\",\n" +
+            "        \"imageLinks\": {\n" +
+            "          \"smallThumbnail\": \"http://books.google.com/books/content?id=1C3yNgqZnUkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n" +
+            "          \"thumbnail\": \"http://books.google.com/books/content?id=1C3yNgqZnUkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"language\": \"en\",\n" +
+            "        \"previewLink\": \"http://books.google.co.in/books?id=1C3yNgqZnUkC&pg=PA22&dq=android&hl=&cd=10&source=gbs_api\",\n" +
+            "        \"infoLink\": \"http://books.google.co.in/books?id=1C3yNgqZnUkC&dq=android&hl=&source=gbs_api\",\n" +
+            "        \"canonicalVolumeLink\": \"https://books.google.com/books/about/Android_Application_Development_For_Dumm.html?hl=&id=1C3yNgqZnUkC\"\n" +
+            "      },\n" +
+            "      \"saleInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"saleability\": \"NOT_FOR_SALE\",\n" +
+            "        \"isEbook\": false\n" +
+            "      },\n" +
+            "      \"accessInfo\": {\n" +
+            "        \"country\": \"IN\",\n" +
+            "        \"viewability\": \"PARTIAL\",\n" +
+            "        \"embeddable\": true,\n" +
+            "        \"publicDomain\": false,\n" +
+            "        \"textToSpeechPermission\": \"ALLOWED\",\n" +
+            "        \"epub\": {\n" +
+            "          \"isAvailable\": true,\n" +
+            "          \"acsTokenLink\": \"http://books.google.co.in/books/download/Android_Application_Development_For_Dumm-sample-epub.acsm?id=1C3yNgqZnUkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"pdf\": {\n" +
+            "          \"isAvailable\": true,\n" +
+            "          \"acsTokenLink\": \"http://books.google.co.in/books/download/Android_Application_Development_For_Dumm-sample-pdf.acsm?id=1C3yNgqZnUkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n" +
+            "        },\n" +
+            "        \"webReaderLink\": \"http://play.google.com/books/reader?id=1C3yNgqZnUkC&hl=&printsec=frontcover&source=gbs_api\",\n" +
+            "        \"accessViewStatus\": \"SAMPLE\",\n" +
+            "        \"quoteSharingAllowed\": false\n" +
+            "      },\n" +
+            "      \"searchInfo\": {\n" +
+            "        \"textSnippet\": \"\\u003cb\\u003eAndroid\\u003c/b\\u003e allows your apps to do a lot! Imagine if someone released an app that \\u003cbr\\u003e\\nwent through the contact list and sent the entire list to a server somewhere for \\u003cbr\\u003e\\nmalicious purposes. This is why most of the functions that modify the user&#39;s \\u003cbr\\u003e\\ndevice or&nbsp;...\"\n" +
+            "      }\n" +
             "    }\n" +
             "  ]\n" +
             "}";
@@ -453,10 +844,14 @@ public class QueryUtils {
                 JSONObject currentEarthqueak = earthArray.getJSONObject(i);
                 JSONObject properties = currentEarthqueak.getJSONObject("volumeInfo");
 
-
                 String Bookname = properties.getString("title");
                 String authorname = properties.getString("publisher");
-                Objects oooo = new Objects(Bookname,authorname);
+//                JSONObject forimage = properties.getJSONObject("imageLinks");
+//                String image = forimage.getString("smallThumbnail");
+
+
+
+                Objects oooo = new Objects(authorname,Bookname);
                 Onject11.add(oooo);
             }
 
