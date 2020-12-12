@@ -1,2 +1,2 @@
 # MyBook_List
-its is Liberary app where you find all books related to Android . here i use Google Book Api. 
+A Book Collection App where you find all books related to Android. here I use Google Book API. and It has a user-friendly interface and design.
